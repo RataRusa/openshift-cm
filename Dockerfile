@@ -1,3 +1,3 @@
-FROM nginx:1.19-alpine
+FROM httpd:2.4
 
-ADD index.html /usr/share/nginx/html
+ADD index.html /usr/local/apache2/htdocs/
